@@ -13,9 +13,9 @@ Please make sure, that you install it with the flag -g so that the executable wi
 Go to the directory with your .enex files and call this script with as much arguments as you want:
 
     cd /path/to/your/evernote-exports/
-    enex-to-ompl export.enex notebook2.enex
+    enex-to-ompl export.enex
 
-You will then receive the files export.opml and notebook2.opml in the same directory.
+You will then receive the files export.opml in the same directory.
 
 
 ## License (MIT)

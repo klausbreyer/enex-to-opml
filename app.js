@@ -42,7 +42,7 @@ var main = function(arg) {
             };
         });
 
-           output = '<?xml version="1.0"?>\n<opml version="2.0">\n<head>\n<ownerEmail>klaus@breyer.berlin</ownerEmail>\n</head>\n<body>\n<outline text="' + arg + '" >' + output + '</outline></body>\n</opml>';
+           output = '<?xml version="1.0"?>\n<opml version="2.0">\n<head>\n<ownerEmail>you@example.org</ownerEmail>\n</head>\n<body>\n<outline text="' + arg + '" >' + output + '</outline></body>\n</opml>';
            fs.writeFile(first + '.opml', output, function (err) {
             if (err) throw err;
             console.log('Saved: ' + first + '.opml');
