@@ -1,5 +1,5 @@
 {
-  "name": "everexport",
+  "name": "enex-to-opml",
   "version": "0.1.0",
   "description": ".enex to .opml convert",
   "main": "app.js",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://everexport@cloudcontrolled.com/repository.git"
+    "url": "git@github.com:klausbreyer/enex-to-opml.git"
   },
   "author": "Klaus Breyer <kb@klaus-breyer.de> (http://klaus-breyer.de)",
   "license": "MIT",
