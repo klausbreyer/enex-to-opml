@@ -10,7 +10,8 @@ You can install this executable using [npm](http://github.com/isaacs/npm):
 Please make sure, that you install it with the flag -g so that the executable will be globally available. You can use it then in every directory. 
 
 ## Example
-Go to the directory with your .enex files and call this script with as much arguments as you want. 
+Go to the directory with your .enex files and call this script with as much arguments as you want:
+
     cd /path/to/your/evernote-exports/
     enex-to-ompl export.enex notebook2.enex
 
