@@ -52,7 +52,6 @@ var main = function(arg) {
    });
 }
 
-// print process.argv
 process.argv.forEach(function (val, index, array) {
     if (index < 2) {
         return;
