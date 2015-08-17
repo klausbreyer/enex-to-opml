@@ -21,7 +21,7 @@ Go to the directory with your .enex files and call this script with as much argu
 
 You will then receive the files export.opml in the same directory.
 
-## Screenshots Step by Step
+##  Step by Step Screenshots
 ### 1. Export Notes from Evernote
 
 ![Export Evernote Notes](http://klaus-breyer.de/wp-content/uploads/2015/08/evernote.png)
