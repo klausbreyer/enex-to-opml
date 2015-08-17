@@ -9,6 +9,10 @@ You can install this executable using [npm](http://github.com/isaacs/npm):
 
 Please make sure, that you install it with the flag -g so that the executable will be globally available. You can use it then in every directory. 
 
+## Features
+ * Every note title is going to be an workflowy item
+ * Text and HTML (stripped) of notes becomes item description in workflowy
+
 ## Example
 Go to the directory with your .enex files and call this script with as much arguments as you want:
 
@@ -17,6 +21,24 @@ Go to the directory with your .enex files and call this script with as much argu
 
 You will then receive the files export.opml in the same directory.
 
+## Screenshots Step by Step
+### 1. Export Notes from Evernote
+
+![Export Evernote Notes](http://klaus-breyer.de/wp-content/uploads/2015/08/evernote.png)
+
+### 2. Call the Script
+
+    $ enex-to-opml example.enex
+    Processing: example.enex
+    Saved: example.opml
+    $
+
+### 3. Open .opml file in your favorite text editor and copy the content
+![Open .opml file in your favorite text editor](http://klaus-breyer.de/wp-content/uploads/2015/08/code.png)
+
+### 4. Paste XML directly into workflowy
+
+![Paste XML directly into workflowy](http://klaus-breyer.de/wp-content/uploads/2015/08/workflowy.png)
 
 ## License (MIT)
 
