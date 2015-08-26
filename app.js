@@ -15,6 +15,9 @@ var _cleanContent = function (note, prefix) {
     if (prefix && note.length > 0) {
         note = prefix + '"' + note + '"';
     };
+    if (prefix === '_note=') {
+        note = note.replace(new RegExp('\n', 'g'), '&#10;');
+    };
     return note;
 }
 
